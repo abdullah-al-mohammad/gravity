@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+.btn-gradient{
+    background: linear-gradient(160deg, #665DCD, #5FA4E6, #D2AB67);
+    padding: 17px 28.5px 19px 27px;
+    border-radius: 2px;
+}
+.btn-gradient:hover{
+    background: linear-gradient(60deg, #665DCD, #5FA4E6, #D2AB67);
+}
