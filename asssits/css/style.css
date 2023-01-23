@@ -15,8 +15,12 @@ body{
 .bg-custom-gradient:hover{
     background: linear-gradient(160deg, #665DCD, #5FA4E6, #D2AB67);
 }
-#aboUt{
-    background-image: url(../images/background-blob-service-1.png\ \(3\).png);
+#about{
+    background-image: url(../images/background-blob-service-1.png);
+    background-position: center;
+    /* background-position-y: top; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* marketing */
 #market{
