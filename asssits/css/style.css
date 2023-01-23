@@ -1,12 +1,79 @@
 body{
-    background-color: black;
+    background-color: #141619;
     font-family: 'Inter', sans-serif;
 }
 .btn-gradient{
     background: linear-gradient(160deg, #665DCD, #5FA4E6, #D2AB67);
     padding: 17px 28.5px 19px 27px;
     border-radius: 2px;
+    border: none;
 }
 .btn-gradient:hover{
     background: linear-gradient(60deg, #665DCD, #5FA4E6, #D2AB67);
+}
+/* about */
+.bg-custom-gradient:hover{
+    background: linear-gradient(160deg, #665DCD, #5FA4E6, #D2AB67);
+}
+#aboUt{
+    background-image: url(../images/background-blob-service-1.png\ \(3\).png);
+}
+/* marketing */
+#market{
+    background-image: url(../images/about.png);
+    background-repeat: no-repeat;
+}
+/* partners */
+#bg-partners{
+    background-image: url(../images/pertners-corner.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: top left -190px;
+
+}
+/* join team */
+#joinOurTeam{
+    background-image: url(../images/div\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center left 185px;
+    background-size: 480px;
+}
+/* contact info */
+#contactBg{
+    background-image: url(../images/contact.png);
+    background-position: center -87px;
+    background-repeat: no-repeat;
+    background-size: 985px;
+
+}
+/* carousel */
+/* #carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next{
+    bottom: unset;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 7%;
+}
+#carouselExampleIndicators .carousel-control-prev{
+    justify-content: start;
+}
+#carouselExampleIndicators .carousel-control-next{
+    justify-content: end;
+} */
+/* #carouselExampleIndicators .carousel-control-next .carousel-control-next-icon{
+    background-image: url("../images/righticon.svg");
+} */
+/* indicators */
+#carouselExampleIndicators .carousel-item{
+    float: none;
+}
+#carouselExampleIndicators .carousel-indicators{
+    margin-bottom: 0;
+    bottom: -80px;
+}
+#carouselExampleIndicators .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
