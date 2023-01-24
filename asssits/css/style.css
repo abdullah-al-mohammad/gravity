@@ -14,13 +14,21 @@ body{
 /* about */
 .bg-custom-gradient:hover{
     background: linear-gradient(160deg, #665DCD, #5FA4E6, #D2AB67);
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out(.3s);
 }
 #about{
+    position: relative;
+}
+#about::before{
+    content: "";
+    position: absolute;
+    width: 1500px;
+    height: 1500px;
     background-image: url(../images/background-blob-service-1.png);
-    background-position: center;
-    /* background-position-y: top; */
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    top: -495px;
+    left: -200px;
 }
 /* marketing */
 #market{
@@ -51,27 +59,36 @@ body{
 
 }
 /* carousel */
-/* #carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-prev,
 #carouselExampleIndicators .carousel-control-next{
     bottom: unset;
-    top: 110px;
+    top: 114px;
     left: 50%;
     transform: translate(-50%,0);
-    width: 7%;
+    width: 50px;
 }
 #carouselExampleIndicators .carousel-control-prev{
-    justify-content: start;
+    margin-right: 50px;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #665DCD;
+}
+#carouselExampleIndicators .carousel-control-prev .carousel-control-prev-icon{
+    background-image: url("../images/lefticon.svg");
 }
 #carouselExampleIndicators .carousel-control-next{
-    justify-content: end;
-} */
-/* #carouselExampleIndicators .carousel-control-next .carousel-control-next-icon{
-    background-image: url("../images/righticon.svg");
-} */
-/* indicators */
-#carouselExampleIndicators .carousel-item{
-    float: none;
+   margin-left: 50px;
+   border: 1px solid white;
+   padding: 8px;
+   border-radius: 50%;
+   background-color: #665DCD;
 }
+#carouselExampleIndicators .carousel-control-next .carousel-control-next-icon{
+    background-image: url("../images/righticon.svg");
+}
+/* indicators */
+
 #carouselExampleIndicators .carousel-indicators{
     margin-bottom: 0;
     bottom: -80px;
