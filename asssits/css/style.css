@@ -63,12 +63,12 @@ body{
 #carouselExampleIndicators .carousel-control-next{
     bottom: unset;
     top: 114px;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%,0);
     width: 50px;
 }
 #carouselExampleIndicators .carousel-control-prev{
-    margin-right: 50px;
+    margin-right: 55px;
     border: 1px solid white;
     padding: 8px;
     border-radius: 50%;
@@ -78,7 +78,7 @@ body{
     background-image: url("../images/lefticon.svg");
 }
 #carouselExampleIndicators .carousel-control-next{
-   margin-left: 50px;
+   margin-left: 55px;
    border: 1px solid white;
    padding: 8px;
    border-radius: 50%;
