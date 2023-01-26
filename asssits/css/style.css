@@ -2,6 +2,10 @@ body{
     background-color: #141619;
     font-family: 'Inter', sans-serif;
 }
+/* navbar */
+.navbar-expand-lg .navbar-collapse{
+    justify-content: center;
+}
 .btn-gradient{
     background: linear-gradient(160deg, #665DCD, #5FA4E6, #D2AB67);
     padding: 17px 28.5px 19px 27px;
@@ -66,29 +70,23 @@ body{
     left: 49%;
     transform: translate(-50%,0);
     width: 50px;
-}
-#carouselExampleIndicators .carousel-control-prev{
-    margin-right: 55px;
     border: 1px solid white;
     padding: 8px;
     border-radius: 50%;
-    background-color: #665DCD;
+}
+#carouselExampleIndicators .carousel-control-prev{
+    margin-right: 60px;
 }
 #carouselExampleIndicators .carousel-control-prev .carousel-control-prev-icon{
     background-image: url("../images/lefticon.svg");
 }
 #carouselExampleIndicators .carousel-control-next{
-   margin-left: 55px;
-   border: 1px solid white;
-   padding: 8px;
-   border-radius: 50%;
-   background-color: #665DCD;
+   margin-left: 60px;
 }
 #carouselExampleIndicators .carousel-control-next .carousel-control-next-icon{
     background-image: url("../images/righticon.svg");
 }
 /* indicators */
-
 #carouselExampleIndicators .carousel-indicators{
     margin-bottom: 0;
     bottom: -80px;
