@@ -42,7 +42,6 @@ body{
     background-size: 700px;
     background-repeat: no-repeat;
     background-position: top left -190px;
-
 }
 /* join team */
 #joinOurTeam{
@@ -57,14 +56,13 @@ body{
     background-position: center -87px;
     background-repeat: no-repeat;
     background-size: 985px;
-
 }
 /* carousel */
 #carouselExampleIndicators .carousel-control-prev,
 #carouselExampleIndicators .carousel-control-next{
     bottom: unset;
     top: 114px;
-    left: 49%;
+    left: 45%;
     transform: translate(-50%,0);
     width: 50px;
     border: 1px solid white;
@@ -94,3 +92,31 @@ body{
     height: 10px;
     border-radius: 50%;
 }
+
+/* media quirey */
+@media screen and (max-width: 575.99px) {
+#carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next{
+    top: 155px;
+    left: 40%;
+}
+/* partners */
+#bg-partners{
+    background-image: url(../images/pertners-corner.png);
+    background-size: 500px;
+    background-position: top -82px left -232px;
+}
+/* join team */
+#joinOurTeam{
+    background-image: url(../images/joinTeam.png);
+    background-position: left 12px;
+    background-size: 355px;
+}
+/* contact info */
+#contactBg{
+    background-image: url(../images/contact.png);
+    background-position: center -17px;
+    background-size: 526px;
+}
+}
+
